@@ -22,7 +22,7 @@ body {
 
 h1,h2 {
     font-weight: normal;
-    font-kerning: 1.5 ;
+    letter-spacing: 3px;
     color: darkred;
     text-align: center;
 }
@@ -66,8 +66,62 @@ header p {
     font-size: 1.2em;
 }
 
+/*------ FOOTER ------ */
+
 footer {
     text-align: center;
     font-size: 0.707em;
     padding: 4em 0 8 2;
 }
+
+/*------ STYLING LINKS ------ */
+a {
+    color: darkred;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    border-bottom: 1px dotted;
+}
+
+/*------ NAVAGATION ------ */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: darkred;
+    padding: 1em 0;
+    font-size: 0.75em;
+
+}
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+nav ul li {
+    display: inline;
+    margin: 28px;
+    background; none;
+}
+* nav a:link {
+    color: white;
+    text-decoration: none;
+    
+    
+    
+}
+
+nav a:hover {
+    color: lightpink;
+    border-bottom: none;
+    
+}
+
+nav a:visited {
+    color: white
+}
+
+

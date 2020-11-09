@@ -67,13 +67,26 @@ header p {
     font-size: 1.2em;
 }
 
+/*------ FOOTER ------ */
+
 footer {
     text-align: center;
     font-size: 0.707em;
     padding: 4em 0 8 2;
+    color: white
 }
 
 p {
     font-family: sans-serif;
     color: white
+}
+
+/*------ STYLING LINKS ------ */
+a {
+    color: darkred;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    border-bottom: 1px dotted;
 }
