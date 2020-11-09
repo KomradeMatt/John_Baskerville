@@ -1,0 +1,73 @@
+/*------ CSS Reset ------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height@ lem;
+}
+
+
+/*------ MAIN STYLING ------*/
+
+body {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background: #fdfdfd;
+    color: #333;
+}
+
+/*------ TYPOGRAHPY ------*/
+
+h1,h2 {
+    font-weight: normal;
+    font-kerning: 1.5 ;
+    color: darkred;
+    text-align: center;
+}
+
+p, blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 4.1em;
+    margin-top: 3em;
+    margin-bottom: 0.1em;
+    
+}
+
+h2 {
+    font-size: 2.0em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+blockquote {
+    font-size: 1.1em;
+    color: darkred;
+    hanging-punctuation: first;
+    text-indent: -0.46em;
+    
+}
+
+blockquote cite {
+    font-size: 0.75em;
+    color: black;
+}
+
+header h2 {
+    font-style: italic;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.707em;
+    padding: 4em 0 8 2;
+}

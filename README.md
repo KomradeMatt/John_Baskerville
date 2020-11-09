@@ -1,2 +1,2 @@
-# john_baskerville
-markdowns for html and css.
+# baskerville
+Baskerville text testing for html and css.
