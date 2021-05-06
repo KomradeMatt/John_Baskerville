@@ -14,7 +14,7 @@ body {
     width: 80%;
     max-width: 600px;
     margin: auto;
-    background: #fdfdfd;
+    background: #f0f0f0;
     color: #333;
     font-family: 'Roboto', sans-serif;
     
@@ -25,7 +25,7 @@ body {
 h1,h2 {
     font-weight: normal;
     letter-spacing: 3px;
-    color: darkred;
+    color: cadetblue;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
 }
@@ -49,17 +49,16 @@ h2 {
 }
 
 blockquote {
-    font-size: 1.1em;
-    color: darkred;
-    hanging-punctuation: first;
-    text-indent: -0.46em;
-    
+   font-size: 1.414em;
+   hanging-punctuation: first;
+   text-indent: -0.44em;
+   color:  skyblue;
+   font-weight: 600;
 }
 
 blockquote cite {
     font-size: 0.75em;
-    color: black;
-}
+    color: #333}
 
 .intro {font-size: 1.25em}
 
@@ -83,8 +82,8 @@ header p {
 hr {
     margin: 5em;
     height: 1px;
-    background-color: darkred;
-    color: darkred;
+    background-color: cadetblue;
+    color: cadetblue;
     border: 0 none;
     
 
@@ -93,7 +92,7 @@ hr {
 
 .leader {
     text-transform: uppercase;
-    color: darkred
+    color: cadetblue
 }
 
 /*------ FOOTER ------ */
@@ -107,11 +106,11 @@ footer {
 /*------ STYLING LINKS ------ */
 
 a {
-    color: darkred;
+    color: cadetblue;
     text-decoration: none;
 }
 a:hover {
-    color: red;
+    color: cadetblue;
     border-bottom: 1px dotted;
 }
 
@@ -135,7 +134,7 @@ th {
     text-transform: uppercase;
     font-weight: normal;
     text-align: left;
-    background-color: darkred;
+    background-color: cadetblue;
 }
 
 th, td {
@@ -147,10 +146,43 @@ table, td {
     border: 2px solid #fdfdfd
 }
 
-/*----- IMAGES -----*/
+/*------------------- TABLE STYLING ---------------*/
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    width: 100%;
+} 
+
+caption {
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+th {
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: rgb(120, 143, 4);
+}
+
+th, td {
+    padding: .6em }
+
+table, td   {
+    background: rgb(212, 222, 164);
+    border: 1px solid #fafafa
+}
+
+/*-------------- IMAGES -----------------*/
+
 img {
     display: block;
-    margin: 4em 0;
+    margin: 3em auto;
     padding: 0;
     max-width: 100%;
 }
@@ -169,7 +201,7 @@ nav {
     left: 0;
     margin: 0;
     width: 100%;
-    background-color: darkred;
+    background-color: cadetblue;
     padding: 2em 0;
     font-size: 1.2em;
 
